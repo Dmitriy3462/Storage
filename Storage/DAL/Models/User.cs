@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Storage.DAL.Models
 {
-    internal class User
+    public class User
     {
+      
     }
 }
