@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Storage.DAL.Models
 {
-    internal class Car
+    public class Car
     {
+
+        public string Id { get; set; }
+        public string CarModel { get; set; }
+        public int Year { get; set; }
+        public string?Image { get; set; }
+        public IEnumerable<Category> Categorys { get; set; }
+
+
+
     }
 }
