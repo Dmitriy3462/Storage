@@ -14,7 +14,7 @@ namespace Storage.DAL.Models
         public string PhoneNumber { get; set; }
         public string City { get; set; }
         public string ShippingAdress { get; set; }
-        public string  NikitaHuy { get; set; }  
+        public string  DimaHuy { get; set; }  
         // TODO: Реализация покупки клиентом товара              
 
 
