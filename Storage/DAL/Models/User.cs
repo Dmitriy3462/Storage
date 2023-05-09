@@ -15,10 +15,7 @@ namespace Storage.DAL.Models
         public string City { get; set; }
         public string ShippingAdress { get; set; }
 
-        // TODO: Реализация покупки клиентом товара
-
-
-        
+        // TODO: Реализация покупки клиентом товара              
 
 
 
