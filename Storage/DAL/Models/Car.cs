@@ -11,7 +11,7 @@ namespace Storage.DAL.Models
 
         public string Id { get; set; }
         public string CarModel { get; set; }
-        public int Year { get; set; }
+        public DateTime Year { get; set; }
         public string?Image { get; set; }
         public IEnumerable<Category> Categorys { get; set; }
 

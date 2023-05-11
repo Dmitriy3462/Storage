@@ -8,13 +8,13 @@ namespace Storage.DAL.Models
 {
     public class User
     {
-        public string FullName { get; set; }
-        public string?Email { get; set; }
+        public string FullName { get; set; }       
+        public string Email { get; set; }
         public string Password { get; set; }
         public string PhoneNumber { get; set; }
         public string City { get; set; }
         public string ShippingAdress { get; set; }
-        public string  DimaHuy { get; set; }  
+       
         // TODO: Реализация покупки клиентом товара              
 
 
